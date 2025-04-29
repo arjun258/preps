@@ -1,0 +1,71 @@
+/* Container */
+.container {
+  margin-top: 10px; /* Reduce space above the posts */
+  margin-bottom: 10px; /* Reduce space below the posts */
+}
+
+/* Vendor Post Styles */
+.vendor-post {
+  background: #1a1a1a; /* Dark background */
+  color: #f4f4f4; /* Light text for contrast */
+  border-radius: 15px; /* Smooth rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 15px; /* Reduced space between posts */
+}
+
+.vendor-post:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+.vendor-post .d-flex {
+  gap: 1rem;
+  padding: 0.75rem 1rem; /* Reduced padding in the header */
+}
+
+/* Image Styling */
+.vendor-post img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; /* Rounded top corners for the image */
+  transition: transform 0.3s ease;
+  height: 220px; /* Slightly reduce the image height */
+}
+
+.vendor-post img:hover {
+  transform: scale(1.05); /* Slight zoom effect on image hover */
+}
+
+/* Action Buttons */
+.vendor-post .d-flex.flex-wrap {
+  gap: 1rem; /* Reduced gap between buttons */
+  padding: 1rem; /* Reduced padding between buttons */
+}
+
+/* Caption Styling */
+.vendor-post .px-4 {
+  padding: 0.5rem 1rem; /* Reduced padding around caption */
+}
+
+/* Divider Styling */
+.vendor-post .border-top {
+  border-top: 1px solid #333; /* Darker border for separation */
+  margin: 0.5rem 0; /* Reduced margin for the divider */
+}
+
+/* Description Styling */
+.vendor-post .lead {
+  font-size: 1.1rem; /* Slightly larger font for description */
+  color: #d1d1d1; /* Lighter grey text for better readability */
+  margin-bottom: 0.5rem; /* Reduced bottom margin */
+}
+
+/* Button Styling */
+.vendor-post .btn-link {
+  color: #1d9bf0 !important;
+}
+
+.vendor-post .btn-link:hover {
+  text-decoration: underline;
+}
