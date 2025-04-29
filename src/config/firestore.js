@@ -5,13 +5,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBOAqhpVaKvZAyXw_3fyd4R9amBCLceHQM",
-  authDomain: "apni-e-dukaan.firebaseapp.com",
-  projectId: "apni-e-dukaan",
-  storageBucket: "apni-e-dukaan.firebasestorage.app",
-  messagingSenderId: "779198651481",
-  appId: "1:779198651481:web:dbe0a6be9dbe1ddc0da548",
-  measurementId: "G-8R2BTKGX6Q"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_APP_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase

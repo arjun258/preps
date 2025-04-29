@@ -15,6 +15,7 @@ export default [
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
+        
       },
     },
     settings: { react: { version: '18.3' } },
@@ -33,6 +34,11 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+    },
+    env: {
+      browser: true,
+      es2020: true,
+      node: true,
     },
   },
 ]
